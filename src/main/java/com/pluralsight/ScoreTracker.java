@@ -35,7 +35,7 @@ public class ScoreTracker {
 
         String winningTeam;
         winningTeam = teamAScore > teamBScore ? teamA : teamB;
-        System.out.println(winningTeam);
+        System.out.println("Winner: " + winningTeam);
 
         scanner.close();
     }
